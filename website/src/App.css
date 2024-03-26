@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+:root {
+
+    --color-131921: #131921;
+    --color-232f3e: #232f3e;
+    --color-3b4149: #3b4149;
+}
+
+
+
+/* Header CSS */
+
+.header1tag {
+    padding: 5px 100px;
+    background-color: var(--color-131921);
+    color: white;
+    border-bottom: 1px solid var(--color-3b4149);
+}
+
+.header1row {
+    display: flex;
+
+}
+
+.col1 {
+    width: 50%;
+    text-align: left;
+}
+
+.col2 {
+
+    width: 50%;
+    text-align: right;
+}
+
+.header2tag {
+    padding: 5px 100px;
+    background-color: var(--color-131921);
+    color: white;
+
+}
+
+.header2row {
+    display: flex;
+
+}
+
+.col11 {
+    width: 20%;
+
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.col12 {
+    width: 40%;
+    padding: 10px;
+    /* height: 40px; */
+}
+
+
+.col12txt {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.searchinp {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+}
+
+.searchiconclass {
+    background-color: rgb(255, 191, 0);
+    color: black;
+    padding-left: 2px;
+}
+
+.col13 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: small;
+    
+
+}
+
+.iconplustxt {
+    display: flex;
+    align-items: center;
+}
+
+.forpadding {
+    padding: 2px;
+}
+
+.header3tag {
+    padding: 10px 100px;
+    background-color: var(--color-232f3e);
+    color: white;
+
+}
+
+.header3row {
+    display: flex;
+}
+
+.col111 {
+    width: 20%;
+}
+
+.col112 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
+
+.categoriesspace{
+    padding-right: 40px;
+}
+
+.dropbtnspan {
+    width: 100%;
+
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-align: left;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-131921);
+    min-width: 208px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid var(--color-3b4149)
+}
+
+.dropdown-content a:hover {
+    background-color: var(--color-232f3e);
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Header CSS end */
+
+
+/* Footer CSS Start */
+
+.footer1tag {
+
+    background-color: #232f3e;
+    color: white;
+    padding: 25px 100px;
+    border-bottom: 1px solid var(--color-3b4149);
+}
+
+.footer1row {
+    display: flex;
+}
+
+.fcol1 {
+    width: 50%;
+    text-align: left;
+}
+
+.newslettertxt {
+    /* font-size: large; */
+    font-weight: 500;
+}
+
+.fcol2txt {
+
+    display: flex;
+    align-items: center;
+}
+
+
+.subscribe {
+
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: none;
+
+}
+
+
+.footer2tag {
+
+    background-color: #232f3e;
+    color: white;
+    padding: 50px 100px;
+    border-bottom: 1px solid var(--color-3b4149);
+}
+
+.footer2row {
+    display: flex;
+}
+
+.fcol11 {
+    width: 25%;
+
+}
+
+.fcol12 {
+    width: 20%;
+}
+
+.fcol13 {
+    width: 15%;
+}
+
+.fcol14 {
+    width: 20%;
+}
+
+.fcol15 {
+    width: 20%;
+}
+
+.headtags {
+
+    padding-bottom: 15px;
+}
+
+.socialicons {
+
+    padding-top: 10px;
+
+}
+
+.socialicons a {
+
+    margin-right: 20px;
+}
+
+
+
+.footer3tag {
+
+    background-color: #232f3e;
+    color: white;
+    padding: 15px 50px;
+    border-top: 1px solid var(--color-3b4149);
+}
+
+.footer3row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.fcol111 {
+    width: 50%;
+    text-align: center;
+}
+
+.footerlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+/* Footer CSS End */
+
+
+/* Home CSS Start */
+
+
+.section1 {
+
+    padding: 40px 100px;
+}
+
+.homerow1 {
+    display: flex;
+    height: 300px;
+}
+
+.homecol1 {
+    width: 50%;
+    /* height: 20%; */
+}
+
+.img1div {
+    height: 300px;
+}
+
+.img1class {
+
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.imgtext1div h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.imgtext1div p {
+    padding-bottom: 10%;
+}
+
+.button {
+    /* border: 1px solid white; */
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: var(--color-232f3e);
+}
+
+.button:hover{
+    background-color:  rgb(255, 191, 0); 
+    color: black;
+}
+
+
+
+.homecol2 {
+    width: 50%;
+
+}
+
+.wrapperdiv1 {
+
+    /* display:flex;
+    flex-wrap: wrap; */
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+}
+
+.wrapperdiv2 {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img2div {
+    width: 50%;
+    height: 100%;
+
+}
+
+.img22div {
+    width: 50%;
+    height: 100%;
+
+}
+
+.img2class {
+
+    height: 98%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 4px;
+    padding-right: 4px;
+    /* padding-bottom: px; */
+   
+    border-radius: 4%;
+
+   
+}
+
+.img22class {
+
+    height: 98%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 4px;
+    padding-right: 4px;
+    /* padding-top: 5px; */
+    margin-top: 3px;
+    border-radius: 4%;
+}
+
+
+
+.section2 {
+
+    padding: 30px 100px;
+    background-color: #f3f3f3;
+}
+
+.homerow2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicesdiv{
+    padding: 2px 2px;
+    display: flex;
+}
+
+.section3 {
+
+    /* padding: 30px 100px; */
+    padding-left: 50px;
+    padding-right: 50px;
+
+    height: 150px;
+    /* padding: 30px 100px; */
+    
+    background-color: #f3f3f3;
+}
+
+.homerow3{
+    display: flex;
+    flex-direction: column; 
+    /* padding-bottom: 10px; */
+    /* padding-top: 10px; */
+   height: 150px;
+    background-color: blue;
+}
+
+.servicesdiv1{
+    padding:5px 10px;
+    display: flex;
+    justify-content: center;
+}
+.eleccat{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.electxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+/* Home CSS End */
